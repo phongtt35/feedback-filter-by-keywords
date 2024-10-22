@@ -18,7 +18,7 @@ def check_keywords(feedback, keywords):
     
     return matches
 
-st.title('FPT Polytechnic - XLDL - Lọc phản hồi cần lưu ý theo từ khóa')
+st.title('FPT Polytechnic - XLDL <br/> Lọc phản hồi cần lưu ý theo từ khóa')
 
 keywords_input = st.text_input("Nhập từ khóa (ngăn cách bởi dấu phẩy)")
 keywords_list = [kw.strip() for kw in keywords_input.split(',') if kw.strip()]
